@@ -1,0 +1,121 @@
+* ::after ::before{
+    box-sizing: border-box;
+}
+
+p div a span section main h3 {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #fcfcfc;
+ color: #3d3d3d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p__grid{
+    text-align: start;
+    margin-left: 10em;
+    color: #fcfcfc;
+    margin-right: 5em;
+
+}
+h2{
+    text-align: center;
+}
+.p1{
+    background-color: #01403D;
+    padding: 0.6em;
+    width: 100%;
+}
+.p2{
+    background-color: #01403D;
+    padding: 0.6em;
+    width: 100%;
+
+}
+.p3{
+    background-color: #01403D;
+    padding: 0.6em;
+    width: 95%;
+
+}
+.p4{
+    background-color: #01403D;
+    padding: 0.6em;
+    width: 93%;
+
+}
+.p5{
+    background-color: #01403D;
+    padding: 0.6em;
+    width: 91%;
+
+}
+.p6{
+    background-color: #01403D;
+    padding: 0.6em;
+    width: 90%;
+
+}
+.p7{
+    background-color: #01403D;
+    padding: 0.6em;
+    width: 86%;
+
+}
+.p8{
+    background-color: #01403D;
+    padding: 0.6em;
+    width: 82%;
+
+}
+.p9{
+    background-color: #01403D;
+    padding: 0.6em;
+    width: 80%;
+
+}
+.p10{
+    background-color: #01403D;
+    padding: 0.6em;
+    width: 78%;
+
+}
+.p11{
+    background-color: #01403D;
+    padding: 0.6em;
+    width: 75%;
+
+}
+.p12{
+    background-color: #01403D;
+    padding: 0.6em;
+    width: 72%;
+
+}
+.p13{
+    background-color: #01403D;
+    padding: 0.6em;
+    width: 70%;
+
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 20%;
+}
+
+.left ul{
+    display: grid;
+ list-style: none;
+    grid-template-columns: repeat(4,1fr);
+}
+ .left  li a {
+    text-decoration: none;
+    color: #3d3d3d;
+    display: inline-block;
+}
+.right{
+    font-weight: 900;
+    letter-spacing: 1.1em;
+}

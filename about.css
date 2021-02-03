@@ -1,0 +1,116 @@
+* ::before ::after{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+p div ul li a span header section main {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #fcfcfc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3d3d3d;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 20%;
+}
+
+.left ul{
+    display: grid;
+ list-style: none;
+    grid-template-columns: repeat(4,1fr);
+}
+ .left  li a {
+    text-decoration: none;
+    color: #3d3d3d;
+    display: inline-block;
+}
+.right{
+    font-weight: 900;
+    letter-spacing: 1.1em;
+}
+
+.about__link{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+.main__grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.about__link img{
+    border-radius: 50%;
+height: 8em;
+width: 8em;
+object-fit: cover;
+margin:  0em auto;
+box-shadow: 2px 2px 7px #3d3d3d;
+}
+.fast__link{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 14em;
+    margin:  0em auto;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+
+}
+.about__scss{
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    margin-top: 1.8em;
+    margin-left: 1em;
+    margin-right: 1em;
+    gap: 1em;
+}
+.about__scss p{
+    width: 100%;
+    line-height: 2.7em;
+    grid-column: 1/7;
+}
+.about__scss img{
+    width: 100%;
+    grid-column: 7/13;
+    border-radius: 10px;
+    box-shadow:  3px 3px 9px #3d3d3d;
+}
+
+.job{
+    grid-column: 4/9;
+    margin-top: 2em;
+}
+.about__scss h3{
+    grid-column: 6/7;
+    letter-spacing: 0.3em;
+    font-size: 2em;
+    border-bottom-style: solid;
+}
+
+.animate__animated.animate__backInLeft.img1{
+    --animate-duration: 2s;
+    --animate-delay: 1s;
+
+}
+.animate__animated.animate__backInLeft.img2{
+    --animate-duration: 2s;
+    --animate-delay: 2s;
+
+}
+.animate__animated.animate__backInLeft.img3{
+    --animate-duration: 2s;
+    --animate-delay: 3s;
+
+}
+.animate__animated.animate__backInLeft.img4{
+    --animate-duration: 2s;
+    --animate-delay: 4s;
+
+}
+
+
+
