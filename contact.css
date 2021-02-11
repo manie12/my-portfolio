@@ -10,8 +10,11 @@ p a span div section {
     grid-template-columns: repeat(2,1fr);
     height: 20%;
 }
+.img1{
+    display: none;
+}
 
-.left ul{
+.list__type{
     display: grid;
  list-style: none;
     grid-template-columns: repeat(4,1fr);
@@ -74,6 +77,82 @@ background-color:#002B28 ;
 color: #FDF330;
 }
 
+@media  screen and (max-width:500px){
+
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+    
+        justify-self: center;
+        margin: 2em;
+    }
+    
+    .email {
+        text-align: center;
+        
+        grid-column: 1/13;
+        background-color:#002B28 ;
+        grid-row: 1/2;
+    
+        color: #FDF330;
+    margin-top: 7em;
+    
+        font-size: 1em;
+    }
+    .place{
+        font-size: 1em;
+    padding: 2em;
+        text-align: center;
+    grid-column: 1/13;
+    grid-row: 2/3;
+    background-color:#002B28 ;
+    color: #FDF330;
+    }
+    .phone {
+        grid-column: 1/13;
+        grid-row: 3/4;
+        background-color:#002B28 ;
+        text-decoration: none;
+        color: #FDF330;
+        list-style: none;
+        padding: 2em;
+        text-align: center;
+        font-size: 1em;
+    
+    }
+.img1{
+    display: block;
+    height: 1.6em;
+    width: 1.6em;
+    margin-left: 8em;
+}
+.list__type1{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    position: absolute;
+    width: 100%;
+    background-color: #16202c;
+    color: white;
+    height: 90%;
+    font-size: 1.4em;
+    text-decoration: none;
+    list-style: none;
+    opacity: 0.9;
+z-index: 4;
+padding-top: 1em;
+    
+}
+.list__type{
+    display: none;
+}
+
+.left  li a {
+    text-decoration: none;
+    color: #faf8f8;
+    display: inline-block;
+}
+
+}
 
 
 

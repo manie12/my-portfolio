@@ -19,8 +19,10 @@ body{
     grid-template-columns: repeat(2,1fr);
     height: 20%;
 }
-
-.left ul{
+.img1{
+    display: none;
+}
+.list__type{
     display: grid;
  list-style: none;
     grid-template-columns: repeat(4,1fr);
@@ -111,6 +113,111 @@ box-shadow: 2px 2px 7px #3d3d3d;
     --animate-delay: 4s;
 
 }
+
+@media  screen and (max-width:500px){
+.main__grid{
+    width: 100%
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 20%;
+}
+
+
+.about__link{
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+
+}
+.fast__link{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.2em;
+    margin:  0em 0em 0em 1.2em;
+    font-size: 1em;
+    
+    
+
+}
+.about__link img{
+    border-radius: 50%;
+    height: 5em;
+    width:5em;
+    object-fit: cover;
+    margin:  0em auto;
+    box-shadow: 2px 2px 7px #3d3d3d;
+    }
+.about__scss{
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    margin-top: 1.8em;
+    margin-left: 1em;
+    margin-right: 1em;
+    gap: 1em;
+}
+
+.about__scss p{
+    width: 100%;
+    line-height: 2em;
+    grid-column: 1/7;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1.6em;
+}
+.about__scss img{
+    width: 100%;
+
+    grid-column: 1/13;
+    border-radius: 10px;
+    box-shadow:  3px 3px 9px #3d3d3d;
+}
+.job h6{
+    font-size: 1em;
+}
+
+.img1{
+    display: block;
+    height: 1.6em;
+    width: 1.6em;
+    margin-left: 8em;
+}
+.list__type1{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    position: absolute;
+    width: 100%;
+    background-color: #16202c;
+    color: white;
+    height: 90%;
+    padding-top: 1em;
+    font-size: 1.4em;
+    text-decoration: none;
+    list-style: none;
+    opacity: 0.9;
+z-index: 4;
+    
+}
+.list__type{
+    display: none;
+}
+
+.left  li a {
+    text-decoration: none;
+    color: #faf8f8;
+    display: inline-block;
+}
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
